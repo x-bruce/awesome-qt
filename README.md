@@ -32,6 +32,7 @@ Contributions are welcome!
 - [Software that Uses Qt](#software-that-uses-qt)
 - [Other Relevant Awesome Lists](#other-relevant-awesome-lists)
 - [License](#license)
+- [Generating HTML and PDF](#generating-html-and-pdf)
 
 ## Official Resources
 
@@ -257,3 +258,17 @@ If you're familiar with Awesome, you'll know that there's an *extremely* wide va
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
 To the extent possible under law, [Jesse Talavera-Greenberg](https://jessetg.github.io) has waived all copyright and related or neighboring rights to this work.  See the [LICENSE](LICENSE) file for details.
+
+## Generating HTML and PDF
+
+To generate HTML content from `README.md`, use the `generate-html` script:
+
+```sh
+npm run generate-html
+```
+
+To export `README.md` to PDF using Pandoc, run the following command in your terminal:
+
+```sh
+pandoc README.md -o README.pdf
+```

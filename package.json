@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "awesome-lint"
+    "test": "awesome-lint",
+    "generate-html": "pandoc README.md -o README.html"
   },
   "devDependencies": {
     "awesome-lint": "*"
